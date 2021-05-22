@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.setting.SettingFragment">
+    <RadioGroup
+        android:id="@+id/radiogroup_dinsinfettante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/radio_dinsinfettante"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/my_always_visible_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:text="@string/mode" />
+        <RadioButton
+            android:id="@+id/radio_fotocalisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fotocatalisMode" />
+        <RadioButton
+            android:id="@+id/radio_dinsinfettante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disinfettanteMode" />
+        <RadioButton
+            android:id="@+id/radio_nightMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nightMode" />
+    </RadioGroup>
+    <LinearLayout
+        android:id="@+id/doorsOpenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiogroup_dinsinfettante"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:baselineAligned="false">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center_horizontal">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputFotocatalisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:hint="@string/fotocatalisModeSecond"
+                android:gravity="center_horizontal"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center_horizontal">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputDisinfettante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:hint="@string/disinfettanteModeSecond"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</RelativeLayout>

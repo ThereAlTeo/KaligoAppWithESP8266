@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Kaligo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kaligo</string>
+    <string name="nav_header_subtitle">info@mactec.it</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="stopButtonText">Stop</string>
+    <string name="startCycleButtonText">Start Cycle</string>
+    <string name="openFrontDoorButtonText">Front Door Open</string>
+    <string name="openBackDoorButtonText">Back Door Open</string>
+    <string name="scanDeviceButtonText">FIND DEVICES NEARBY</string>
+    <string name="selectCycleText">Select Cycle</string>
+
+    <string name="stopButtonTextToast">Stop Done</string>
+    <string name="startCycleButtonTextToast">Start Cycle Done</string>
+    <string name="openFrontDoorButtonTextToast">Front Door Open Done</string>
+    <string name="openBackDoorButtonTextToast">Back Door Open Done</string>
+
+    <string name="fotocatalisMode">Photocatalysis</string>
+    <string name="disinfettanteMode">Disinfectant</string>
+    <string name="nightMode">Night Mode</string>
+
+    <string name="fotocatalisModeSecond">Photocatalysis Time (s)</string>
+    <string name="disinfettanteModeSecond">Disinfectant Time (s)</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_device">Device</string>
+    <string name="menu_setting">Setting</string>
+
+    <string name="kaligo_logo">Kaligo Logo</string>
+    <string name="mactec_logo">Mactec Logo</string>
+    <string name="garmon_logo">Garmon Logo</string>
+    <string name="mode">Select mode</string>
+    <string name="connected">Connect with: </string>
+    <string name="disconnected">Disconnect </string>
+    <string name="deviceNotConnected">ERROR: Connect your device</string>
+
+    <string name="checkLiquidContainer">Check liquid container</string>
+    <string name="checkLiquidContainerMessage">Have you checked if the container has enough liquid for night mode?</string>
+
+    <string name="modeChangeToDisinfettante">Mode change: Disinfectant</string>
+    <string name="modeChangeToFotocatalisi">Mode change: Photocatalysis</string>
+    <string name="modeChangeToNight">Mode change: Night Mode</string>
+    <string name="selectDifferentMode">WARNING: Select different mode from the current one</string>
+    <string name="notPossibleChangeMode">WARNING: Mode can\'t be changed</string>
+    <string name="channel_name">ENDCYCLE</string>
+    <string name="channel_description">Channel notification start at the end</string>
+
+    <string name="machine_notification">Machine notification</string>
+
+    <string name="finish_cycle">CYCLE FINISHED</string>
+</resources>
